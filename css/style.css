@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.header li {
+    margin: 6px;
+    padding: 10px 1px;
+}
+
+.header .btn_1 {
+    background: blue;
+    color: white;
+    margin: 0px 9px;
+    padding: 7px 16px;
+    border-radius: 5px;
+    border:none
+}
+
+.header .btn_1:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    text-align: center;
+}
+
+.section_div {
+    width: min-content;
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin: 0 auto 0;
+}
+
+section ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+section li {
+margin: 5px;
+}
+
+.text-1 {
+    border: none;
+    width: 400px;
+}
+
+.text-1:hover {
+    border: none;
+}
+
+.text-1:active {
+    border: hidden;
+
+}
+.btn_2 {
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+.btn_2:hover {
+    background: #DADCE0;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    top: 250px;
+}
+.div_ortak {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div_padding {
+    padding: 0 20px;
+}
+
+.a_paddings {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+.div1 {
+    justify-content: flex-start;
+}
+
+.div2 {
+    justify-content: flex-end;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
